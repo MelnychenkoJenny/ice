@@ -1,0 +1,98 @@
+.section {
+    padding-top: 61px;
+}
+
+.label-title {
+    margin-bottom: 12px;
+    font-weight: 800;
+font-size: 18px;
+line-height: 1.22;
+text-align: center;
+text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 148px;
+    font-family: 'Seymour One';
+    font-size: 30px;
+line-height: 1.267;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+}
+
+.products__list {
+    position: relative;
+    margin-bottom: 168px;
+    padding: 123px 40px 133px 40px;
+    width: 280px;
+    height: 420px;
+    background: #AEC6A5;
+border-radius: 24px;
+}
+
+.cream::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 50%;
+    background: linear-gradient(
+        0deg,
+        rgba(156, 190, 143, 0.7),
+        rgba(156, 190, 143, 0.7)
+      ),
+      #d9d9d9;
+    box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+}
+
+.cream::after {
+    background-image: url(../images/kelsey-curtis-G5ZenftPPOA-unsplash\ 2.jpg);
+    position: absolute;
+    content: '';
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    top: -110px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.coffee::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 50%;
+    background: linear-gradient(
+        0deg,
+        rgba(156, 190, 143, 0.7),
+        rgba(156, 190, 143, 0.7)
+      ),
+      #d9d9d9;
+    box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+}
+
+.coffee::after {
+    background-image: url(../images/kelsey-curtis-G5ZenftPPOA-unsplash\ 2.jpg);
+    position: absolute;
+    content: '';
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    top: -110px;
+    left: 50%;
+    transform: translate(-50%);
+}
